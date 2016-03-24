@@ -1,0 +1,102 @@
+.nospace{
+    padding-left: 0px;
+    padding-right:0px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00a6d6;
+}
+li {
+    float: left;
+    /*border-right:1px solid #bbb;*/
+}
+.left {
+    float:left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #F9966B;
+}
+
+ul p {
+    color: white;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top:3px;
+    font-family: bond;
+
+}
+.title p{
+    font-size:17px;
+}
+
+
+
+
+
+
+.v1_select1{
+    float:left;
+    margin-left:40px;
+}
+.left-gap{
+    padding-left: 70px;
+    padding-top:30px;
+}
+
+
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+.axis {
+    font: 10px sans-serif;
+}
+
+
+
+svg {
+    font: 10px sans-serif;
+}
+
+.background path {
+    fill: none;
+    stroke: #eee;
+    shape-rendering: crispEdges;
+}
+
+.foreground path {
+    fill: none;
+    stroke: steelblue;
+}
+
+.brush .extent {
+    fill-opacity: .3;
+    stroke: #fff;
+    shape-rendering: crispEdges;
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.axis text {
+    text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+    cursor: move;
+}

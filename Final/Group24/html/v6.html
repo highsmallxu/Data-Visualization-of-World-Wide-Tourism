@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../library/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="http://cdn.zingchart.com/zingchart.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <!--<script src="http://cdn.zingchart.com/zingchart-html5-min.js"></script>-->
+    <script src="http://cdn.zingchart.com/zingchart.jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <script src="../library/bootstrap.min.js" type="text/javascript"></script>
+    <script src="../library/d3pie.min.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="container-fluid nospace">
+    <ul>
+        <ul style="float:right;list-style-type:none;" class="title">
+            <li><a href="index.html"><p>Inbound/Outbound Tourism</p></a></li>
+            <li><a href="V3.html"><p>Outbound Tourism vs PPP</p></a></li>
+            <li><a href="v4v5.html"><p>G20 Analysis</p></a></li>
+            <li><a href="v6.html"><p>PCP</p></a></li>
+            <li><a href="v7v8.html"><p>Choropleth map</p></a></li>
+        </ul>
+        <ul class="left">
+            <p>Data Visualization-Group 24</p>
+        </ul>
+    </ul>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-12">
+            <div id="v6_ppp"></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <select id="v6_selectYear" onchange="pcp_changeYear()">
+                <option value="0">Please Select a Year</option>
+                <option value="../data/pcp/1995.csv">1995</option>
+                <option value="../data/pcp/1996.csv">1996</option>
+                <option value="../data/pcp/1997.csv">1997</option>
+                <option value="../data/pcp/1998.csv">1998</option>
+                <option value="../data/pcp/1999.csv">1999</option>
+                <option value="../data/pcp/2000.csv">2000</option>
+                <!--<option value="../data/pcp/2000-adj.csv">adj</option>-->
+                <option value="../data/pcp/2001.csv">2001</option>
+                <option value="../data/pcp/2002.csv">2002</option>
+                <option value="../data/pcp/2003.csv">2003</option>
+                <option value="../data/pcp/2004.csv">2004</option>
+                <option value="../data/pcp/2005.csv">2005</option>
+                <option value="../data/pcp/2006.csv">2006</option>
+                <option value="../data/pcp/2007.csv">2007</option>
+                <option value="../data/pcp/2008.csv">2008</option>
+                <option value="../data/pcp/2009.csv">2009</option>
+                <option value="../data/pcp/2010.csv">2010</option>
+                <option value="../data/pcp/2011.csv">2011</option>
+                <option value="../data/pcp/2012.csv">2012</option>
+                <option value="../data/pcp/2013.csv">2013</option>
+                <option value="../data/pcp/2014.csv">2014</option>
+            </select>
+        </div>
+    </div>
+</div>
+<script src="../js/v6_ppp.js"></script>
+</body>
+</html>
